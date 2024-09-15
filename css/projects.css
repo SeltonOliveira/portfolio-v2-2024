@@ -1,0 +1,64 @@
+.apresentacao__conteudo__projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+}
+.apresentacao__projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card__project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 330px;
+    height: 600px;
+    border: 1px solid var(--cor-border);
+    border-radius: 10px;
+}
+
+.apresentacao__links__card{
+    display: flex;
+    justify-content: center;
+    width: 11.25rem;
+    border-radius: 0.5rem;
+    padding: 0.3125rem 0;
+    margin-bottom: 1.25rem;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: var(--cor-terciaria);
+    border: 1px solid white;
+}
+.apresentacao__links__card:hover {
+    cursor: pointer;
+    background-color: #272727;
+    transform: scale(1.1);
+}
+.card__img{
+    width: 15.625rem;
+}
+.card__img__quiz{
+    width: 15.625rem;
+    height: 18.375rem;
+}
+.card__img__pokeboll{
+    height: 18.3125rem;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao {
+        padding: 3%;
+    }
+    .apresentacao__conteudo__projeto {
+        margin-top: 2rem;
+    }
+    .apresentacao__projetos{
+        flex-direction: column;
+    }
+}
